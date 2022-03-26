@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<accotest>
+ <baseinfo>
+   <minsysver value="AccoTestSTS8200CROSSVersion1030build180416" step="a1"/>
+  <svn_url>https://192.168.0.211:357
+  </svn_url>
+  <svn_version>1578
+  </svn_version>
+  <build_version value="0.0.0"/>
+  <description>NA
+  </description>
+ </baseinfo>
+</accotest>

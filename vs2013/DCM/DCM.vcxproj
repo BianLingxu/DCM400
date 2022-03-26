@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Offline|Win32">
+      <Configuration>Offline</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RecordTime|Win32">
+      <Configuration>RecordTime</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DCM\ACVFailMapHeaderInfo.cpp" />
+    <ClCompile Include="..\..\src\DCM\AD7606.cpp" />
+    <ClCompile Include="..\..\src\DCM\ATE305.cpp" />
+    <ClCompile Include="..\..\src\DCM\BaseOperation.cpp" />
+    <ClCompile Include="..\..\src\DCM\Bind.cpp" />
+    <ClCompile Include="..\..\src\DCM\Board.cpp" />
+    <ClCompile Include="..\..\src\DCM\BoardDelay.cpp" />
+    <ClCompile Include="..\..\src\DCM\BRAM.cpp" />
+    <ClCompile Include="..\..\src\DCM\Calibration.cpp" />
+    <ClCompile Include="..\..\src\DCM\CalibrationInfo.cpp" />
+    <ClCompile Include="..\..\src\DCM\ClassDistribution.cpp" />
+    <ClCompile Include="..\..\src\DCM\ChannelClassify.cpp" />
+    <ClCompile Include="..\..\src\DCM\ChannelMode.cpp" />
+    <ClCompile Include="..\..\src\DCM\CheckLog.cpp" />
+    <ClCompile Include="..\..\src\DCM\COM.cpp" />
+    <ClCompile Include="..\..\src\DCM\ConfigFile.cpp" />
+    <ClCompile Include="..\..\src\DCM\Controller.cpp" />
+    <ClCompile Include="..\..\src\DCM\DCM.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugTool.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItem.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemMCUMeas.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemOut.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPinMode.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUForce.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUInterval.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUIRange.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUMeas.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUMode.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUSamples.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemSlot.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUUnit.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffNum.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffTime.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMeas.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMode.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUSampleNum.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTimeout.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTriggerEdge.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIH.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIL.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOH.cpp" />
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOL.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\Diagnosis.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisConnectivity.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisDriverReceiver.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeScan.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeSplit.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisFailSelected.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisFailSyn.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisHardwareCapture.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisHighInstructions.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisHighMemory.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisItem.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisConditionalInstrcution.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisLow.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisPMU.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisRateSplit.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisComparisonShield.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisTMU.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisWaveformat.cpp" />
+    <ClCompile Include="..\..\src\DCM\Diagnosis\MutualTest.cpp" />
+    <ClCompile Include="..\..\src\DCM\DRAM.cpp" />
+    <ClCompile Include="..\..\src\DCM\DriverAlarm.cpp" />
+    <ClCompile Include="..\..\src\DCM\FlashHead.cpp" />
+    <ClCompile Include="..\..\src\DCM\FPGAA.cpp" />
+    <ClCompile Include="..\..\src\DCM\FPGAE.cpp" />
+    <ClCompile Include="..\..\src\DCM\HardInfo.cpp" />
+    <ClCompile Include="..\..\src\DCM\HardwareFunction.cpp" />
+    <ClCompile Include="..\..\src\DCM\HDModule.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2C.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CBase.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CBoard.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CBoardManage.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CLine.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CLineInfo.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CManage.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CRAM.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CSite.cpp" />
+    <ClCompile Include="..\..\src\DCM\I2C\I2CSiteData.cpp" />
+    <ClCompile Include="..\..\src\DCM\MD5.cpp" />
+    <ClCompile Include="..\..\src\DCM\Operation.cpp" />
+    <ClCompile Include="..\..\src\DCM\Pattern.cpp" />
+    <ClCompile Include="..\..\src\DCM\Period.cpp" />
+    <ClCompile Include="..\..\src\DCM\Pin.cpp" />
+    <ClCompile Include="..\..\src\DCM\PinGroup.cpp" />
+    <ClCompile Include="..\..\src\DCM\ChannelData.cpp" />
+    <ClCompile Include="..\..\src\DCM\PMU.cpp" />
+    <ClCompile Include="..\..\src\DCM\Register.cpp" />
+    <ClCompile Include="..\..\src\DCM\Relay.cpp" />
+    <ClCompile Include="..\..\src\DCM\RunAuthorization.cpp" />
+    <ClCompile Include="..\..\src\DCM\SelfCheck.cpp" />
+    <ClCompile Include="..\..\src\DCM\ShieldAlaram.cpp" />
+    <ClCompile Include="..\..\src\DCM\Site.cpp" />
+    <ClCompile Include="..\..\src\DCM\SM8213.cpp" />
+    <ClCompile Include="..\..\src\DCM\StdAfx.cpp" />
+    <ClCompile Include="..\..\src\DCM\Timer.cpp" />
+    <ClCompile Include="..\..\src\DCM\Timeset.cpp" />
+    <ClCompile Include="..\..\src\DCM\TMU.cpp" />
+    <ClCompile Include="..\..\src\DCM\VectorInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\DCM\HardwareInfo.h" />
+    <ClInclude Include="..\..\inc\DCM\SM8213.h" />
+    <ClInclude Include="..\..\src\DCM\ACVFailMapHeaderInfo.h" />
+    <ClInclude Include="..\..\src\DCM\AD7606.h" />
+    <ClInclude Include="..\..\src\DCM\AlarmID.h" />
+    <ClInclude Include="..\..\src\DCM\ATE305.h" />
+    <ClInclude Include="..\..\src\DCM\BaseDataOp.h" />
+    <ClInclude Include="..\..\src\DCM\BaseOperation.h" />
+    <ClInclude Include="..\..\src\DCM\Bind.h" />
+    <ClInclude Include="..\..\src\DCM\Board.h" />
+    <ClInclude Include="..\..\src\DCM\BoardDelay.h" />
+    <ClInclude Include="..\..\src\DCM\BRAM.h" />
+    <ClInclude Include="..\..\src\DCM\Calibration.h" />
+    <ClInclude Include="..\..\src\DCM\CalibrationInfo.h" />
+    <ClInclude Include="..\..\src\DCM\ChannelClassify.h" />
+    <ClInclude Include="..\..\src\DCM\ChannelMode.h" />
+    <ClInclude Include="..\..\src\DCM\CheckLog.h" />
+    <ClInclude Include="..\..\src\DCM\COM.h" />
+    <ClInclude Include="..\..\src\DCM\ConfigFile.h" />
+    <ClInclude Include="..\..\src\DCM\Controller.h" />
+    <ClInclude Include="..\..\src\DCM\DCM.h" />
+    <ClInclude Include="..\..\src\DCM\ClassDistribution.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugTool.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItem.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemMCUMeas.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemOut.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPinMode.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUForce.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUInterval.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUIRange.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUMeas.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUMode.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPMUSamples.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemSlot.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUUnit.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffNum.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffTime.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMeas.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUSampleNum.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMode.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTimeout.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTriggerEdge.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIH.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIL.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOH.h" />
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOL.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\Diagnosis.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisConnectivity.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisDriverReceiver.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeScan.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeSplit.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisFailSelected.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisFailSyn.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisHardwareCapture.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisHighInstructions.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisHighMemory.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisItem.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisConditionalInstrcution.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisLow.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisPMU.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisRateSplit.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisComparisonShield.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisTMU.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisWaveformat.h" />
+    <ClInclude Include="..\..\src\DCM\Diagnosis\MutualTest.h" />
+    <ClInclude Include="..\..\src\DCM\FlashHead.h" />
+    <ClInclude Include="..\..\src\DCM\DRAM.h" />
+    <ClInclude Include="..\..\src\DCM\DriverAlarm.h" />
+    <ClInclude Include="..\..\src\DCM\FlashInfo.h" />
+    <ClInclude Include="..\..\src\DCM\FPGAA.h" />
+    <ClInclude Include="..\..\src\DCM\FPGAE.h" />
+    <ClInclude Include="..\..\src\DCM\HardInfo.h" />
+    <ClInclude Include="..\..\src\DCM\HardwareFunction.h" />
+    <ClInclude Include="..\..\src\DCM\HDModule.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2C.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CBase.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CBoard.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CBoardManage.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CLine.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CLineInfo.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CManage.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CRAM.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CSite.h" />
+    <ClInclude Include="..\..\src\DCM\I2C\I2CSiteData.h" />
+    <ClInclude Include="..\..\src\DCM\MD5.h" />
+    <ClInclude Include="..\..\src\DCM\Operation.h" />
+    <ClInclude Include="..\..\src\DCM\Pattern.h" />
+    <ClInclude Include="..\..\src\DCM\Period.h" />
+    <ClInclude Include="..\..\src\DCM\Pin.h" />
+    <ClInclude Include="..\..\src\DCM\PinGroup.h" />
+    <ClInclude Include="..\..\src\DCM\ChannelData.h" />
+    <ClInclude Include="..\..\src\DCM\PMU.h" />
+    <ClInclude Include="..\..\src\DCM\Register.h" />
+    <ClInclude Include="..\..\src\DCM\Relay.h" />
+    <ClInclude Include="..\..\src\DCM\resource.h" />
+    <ClInclude Include="..\..\src\DCM\RunAuthorization.h" />
+    <ClInclude Include="..\..\src\DCM\SelfCheck.h" />
+    <ClInclude Include="..\..\src\DCM\ShieldAlaram.h" />
+    <ClInclude Include="..\..\src\DCM\Site.h" />
+    <ClInclude Include="..\..\src\DCM\StdAfx.h" />
+    <ClInclude Include="..\..\src\DCM\Timer.h" />
+    <ClInclude Include="..\..\src\DCM\Timeset.h" />
+    <ClInclude Include="..\..\src\DCM\TMU.h" />
+    <ClInclude Include="..\..\src\DCM\VectorInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\DCM\DCM.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\inc\DCM\SM8213.def" />
+    <None Include="..\..\src\DCM\cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\src\DCM\accotest.xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD019345-64F3-4954-B963-A192F11D4A12}</ProjectGuid>
+    <RootNamespace>DCM</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Offline|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Offline|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>C:\AccoTEST\AccoTEST System_200814_r_p4.0_a3\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Offline|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>C:\AccoTEST\AccoTEST System_200814_r_p4.0_a1\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\VS2013\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>C:\AccoTEST\AccoTEST System_200814_r_p3.0_a3\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AT_CPP;WIN32;_DEBUG;DCM_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\inc\DCM;$(ATLibs)\STSPciE\inc\STSSP8201;$(ATLibs)\STSCore\inc\STSCore;..\..\ext\ACVectorEditor;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\ATInterface\Hardware\;$(ATLibs)\ATInterface\DriverPack\;$(ATLibs)\ATInterface\ATGlobal\</AdditionalIncludeDirectories>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\$(Configuration);$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\$(Configuration);$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sts8100.lib;StsCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>..\..\inc\DCM\SM8213.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Offline|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AT_CPP;WIN32;_DEBUG;DCM_EXPORTS;_WINDOWS;_USRDLL;_OFFLINE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\inc\DCM;$(ATLibs)\STSPciE\inc\STSSP8201;$(ATLibs)\STSCore\inc\STSCore;..\..\ext\ACVectorEditor;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\ATInterface\Hardware\;$(ATLibs)\ATInterface\DriverPack\;$(ATLibs)\ATInterface\ATGlobal\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\Debug;$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\Debug;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sts8100.lib;StsCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>..\..\inc\DCM\SM8213.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AT_CPP;WIN32;NDEBUG;DCM_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\inc\DCM;$(ATLibs)\STSPciE\inc\STSSP8201;$(ATLibs)\STSCore\inc\STSCore;..\..\ext\ACVectorEditor;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\ATInterface\Hardware\;$(ATLibs)\ATInterface\DriverPack\;$(ATLibs)\ATInterface\ATGlobal\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\$(Configuration);$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\$(Configuration);$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sts8100.lib;StsCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>..\..\inc\DCM\SM8213.def</ModuleDefinitionFile>
+      <ProgramDatabaseFile>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AT_CPP;WIN32;NDEBUG;DCM_EXPORTS;_WINDOWS;_USRDLL;RECORD_TIME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\inc\DCM;$(ATLibs)\STSPciE\inc\STSSP8201;$(ATLibs)\STSCore\inc\STSCore;..\..\ext\ACVectorEditor;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\ATInterface\Hardware\;$(ATLibs)\ATInterface\DriverPack\;$(ATLibs)\ATInterface\ATGlobal\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\Release;$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\Release;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sts8100.lib;StsCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>..\..\inc\DCM\SM8213.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

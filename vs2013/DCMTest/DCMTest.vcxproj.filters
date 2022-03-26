@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc\DCM_MCU_TEST">
+      <UniqueIdentifier>{8342862a-074d-47db-8dad-b8398b469366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\DCM_PPMU_TEST">
+      <UniqueIdentifier>{b39bebf6-ca6d-4bcd-ae87-a269ca35d32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\DCM_TMU_TEST">
+      <UniqueIdentifier>{8476177a-4c58-4ec6-a87a-bfff66e4bb87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DCMTest\DCMTestMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCMTest\Report.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCMTest\PTE.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\DCMTest\DCMTestMain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMConnectFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMConnectParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMConnectRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMDisconnectFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMDisconnectParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMDisconnectRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailCountFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailCountParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailCountRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailLineNoFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailLineNoParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailLineNoRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFirstFailLineNoFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFirstFailLineNoParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFirstFailLineNoRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinResultFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinResultParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinResultRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinRunStatusFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinRunStatusParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinRunStatusRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUResultFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUResultParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUResultRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLabelFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLabelParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLabelRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLineNoFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLineNoParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLineNoRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetNACKIndexFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetNACKIndexParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetNACKIndexRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetReadDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetReadDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CReadDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CReadDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CReadDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevelParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevelRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteMultiDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteMultiDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteMultiDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMInitMCUParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMInitMCURunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMLoadVectorFileFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMLoadVectorFileParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMLoadVectorFileRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorWithGroupFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorWithGroupParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorWithGroupRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSaveFailMapRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoadParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoadRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetEdgeParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetEdgeRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinGroupFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinGroupParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinGroupRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinLevelParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPeriodFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPeriodParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPeriodRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetVTFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetVTParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetVTRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetWaveDataParamParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMStopVectorFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMStopVectorParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMStopVectorRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetSiteWaveDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveData_BlankParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveData_BlankFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CConnectParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CConnectFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CDisconnectFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CDisconnectParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetBitDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetBitDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSCLEdgeParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSDAEdgeParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetWaveDataParamRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetSiteWaveDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveData_blankRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CConnectRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CDisconnectRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetBitDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSCLEdgeRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSDAEdgeRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\MCUCase.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\InitDCMTest.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_Test\PPMUCase.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\GeneralFunction.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\Report.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMSetPPMUFunction.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMGetPPMUMeasResultFunction.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetHardwareCaptureDataFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetHardwareCaptureDataParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetHardwareCaptureDataRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMInitPPMUFunction.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMInitPPMUParamValidity.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMSetPPMUParamValidity.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMGetPPMUMeasResultParamValidity.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMInitPPMURunningTime.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMSetPPMURunningTime.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMPPMUMeasureRunningTime.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMGetPPMUMeasResultRunningTime.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMAlarm.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetChannelStatusParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetChannelStatusFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetChannelStatusRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinLevelRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TMUCase.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUMatrixParamValidity.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParamParamValidity.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMTMUMeasureParamValidity.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMGetTMUMeasureResultParamValidity.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUMatrixFunction.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParamFunction.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMTMUMeasureFunction.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMGetTMUMeasureResultFunction.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUMatrixRunningTime.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParamRunningTime.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMTMUMeasureRunningTime.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetEdgeFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMGetTMUMeasureResultRunningTime.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetInstructionParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetInstructionFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetInstructionRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetOperandParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetOperandFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetOperandRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinLevelFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevelFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetCaptureParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetCaptureFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetCaptureRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureData_WithSiteCaptureParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureData_WithSiteCaptureRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetRunLineCountParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetRunLineCountFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetRunLineCountRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevel_PinParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevel_PinFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevel_PinRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPrereadVectorFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorEnFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorEnParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorEnRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPrereadVectorParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPrereadVectorRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetStopStatusFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoadFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoad_GroupParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoad_GroupRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetDynamicLoadParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetDynamicLoadFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetDynamicLoadRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoad_GroupFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteData_SameParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteData_SameFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteData_SameRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetValidPinParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetValidPinRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetValidPinFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMPPMUMeasureParamValidity.h">
+      <Filter>inc\DCM_PPMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParam_UnitParamValidity.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParam_UnitFunction.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParam_UnitRunningTime.h">
+      <Filter>inc\DCM_TMU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\PTE.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteDataFunctionModuleRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetFailSavingTypeParamValidity.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetFailSavingTypeFunction.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetFailSavingTypeRunningTime.h">
+      <Filter>inc\DCM_MCU_TEST</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\DCMTest\DCMTest.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

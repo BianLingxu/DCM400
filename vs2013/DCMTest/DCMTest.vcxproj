@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RecordTime|Win32">
+      <Configuration>RecordTime</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DCMTest\PTE.cpp" />
+    <ClCompile Include="..\..\src\DCMTest\DCMTestMain.cpp" />
+    <ClCompile Include="..\..\src\DCMTest\Report.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteDataFunctionModuleRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\PTE.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCMTestMain.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\MCUCase.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMAlarm.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMConnectFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMConnectParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMConnectRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMDisconnectFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMDisconnectParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMDisconnectRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureData_WithSiteCaptureRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetCaptureData_WithSiteCaptureParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailCountFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailCountParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailCountRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailLineNoFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailLineNoParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFailLineNoRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFirstFailLineNoFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFirstFailLineNoParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetFirstFailLineNoRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetHardwareCaptureDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetHardwareCaptureDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetHardwareCaptureDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinResultFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinResultParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinResultRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinRunStatusFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinRunStatusParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUPinRunStatusRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUResultFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUResultParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetMCUResultRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetRunLineCountFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetRunLineCountParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetRunLineCountRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLabelFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLabelParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLabelRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLineNoFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLineNoParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMGetStopLineNoRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CConnectFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CConnectParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CConnectRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CDisconnectFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CDisconnectParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CDisconnectRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetBitDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetBitDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetBitDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetNACKIndexFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetNACKIndexParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetNACKIndexRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetReadDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CGetReadDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CReadDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CReadDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CReadDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetDynamicLoadFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetDynamicLoadParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetDynamicLoadRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevelFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevelParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevelRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevel_PinFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevel_PinParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetPinLevel_PinRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSCLEdgeParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSCLEdgeRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSDAEdgeParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetSDAEdgeRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CSetStopStatusFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteData_SameFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteData_SameParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteData_SameRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteMultiDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteMultiDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMI2CWriteMultiDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMInitMCUParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMInitMCURunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMLoadVectorFileFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMLoadVectorFileParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMLoadVectorFileRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorEnFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorEnParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorEnRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorWithGroupFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorWithGroupParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMRunVectorWithGroupRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSaveFailMapRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetCaptureFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetCaptureParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetCaptureRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetChannelStatusFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetChannelStatusParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetChannelStatusRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoadFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoadParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoadRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoad_GroupFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoad_GroupParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetDynamicLoad_GroupRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetEdgeFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetFailSavingTypeFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetFailSavingTypeParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetFailSavingTypeRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetInstructionFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetInstructionParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetInstructionRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetOperandFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetOperandParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetOperandRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPeriodFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPeriodParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPeriodRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinGroupFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinGroupParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinGroupRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinLevelFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinLevelParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPinLevelRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetValidPinFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetValidPinParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetValidPinRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPrereadVectorFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPrereadVectorParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetPrereadVectorRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetSiteWaveDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetSiteWaveDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetEdgeParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetEdgeRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetVTFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetVTParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetVTRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetWaveDataParamParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMSetWaveDataParamRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMStopVectorFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMStopVectorParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMStopVectorRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveData_BlankFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveData_BlankParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveDataFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveDataParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveDataRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_MCU_TEST\TestDCMWriteWaveData_blankRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_Test\PPMUCase.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMGetPPMUMeasResultRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMGetPPMUMeasResultFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMGetPPMUMeasResultParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMInitPPMUFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMInitPPMUParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMInitPPMURunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMPPMUMeasureParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMPPMUMeasureRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMSetPPMUFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMSetPPMURunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_PPMU_TEST\TestDCMSetPPMUParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMGetTMUMeasureResultRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParamRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMGetTMUMeasureResultFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMGetTMUMeasureResultParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUMatrixFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUMatrixParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUMatrixRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParamFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParamParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParam_UnitFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParam_UnitParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMSetTMUParam_UnitRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMTMUMeasureFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMTMUMeasureParamValidity.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TestDCMTMUMeasureRunningTime.h" />
+    <ClInclude Include="..\..\src\DCMTest\DCM_TMU_TEST\TMUCase.h" />
+    <ClInclude Include="..\..\src\DCMTest\GeneralFunction.h" />
+    <ClInclude Include="..\..\src\DCMTest\InitDCMTest.h" />
+    <ClInclude Include="..\..\src\DCMTest\Report.h" />
+    <ClInclude Include="..\..\src\DCMTest\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\DCMTest\DCMTest.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{404C0D14-5436-42B3-AC51-19192D1A5AEE}</ProjectGuid>
+    <RootNamespace>CALTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>C:\AccoTEST\AccoTEST System_200814_r_p4.0_a3\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>C:\AccoTEST\AccoTEST System_200814_r_p4.0_a3\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'">
+    <OutDir>C:\AccoTEST\AccoTEST System_200814_r_p3.0_a3\\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ATLibs)\xgTest\inc;$(ATLibs)\STSPciE\inc\STSSP8201;..\..\driverRef\TestEnvironment;..\..\inc;..\..\inc\DCM;$(ATLibs)\STSCore\inc;..\..\ext\VISA\Include;$(ATLibs)\STSCore\inc\STSCore;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\DriverPack8250\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ATLibs)\xgTest\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\DriverPack8250\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\$(Configuration)\;..\..\ext\VISA\lib\msc;$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\$(Configuration)\;..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>xgTest.lib;STSSP8201.lib;STSCore.lib;sts8100.lib;Shlwapi.lib;DCM.lib;UserRes.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ATLibs)\xgTest\inc;$(ATLibs)\STSPciE\inc\STSSP8201;..\..\driverRef\TestEnvironment;..\..\inc;..\..\inc\DCM;$(ATLibs)\STSCore\inc;..\..\ext\VISA\Include;$(ATLibs)\STSCore\inc\STSCore;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\DriverPack8250\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ATLibs)\xgTest\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\DriverPack8250\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\$(Configuration)\;..\..\ext\VISA\lib\msc;$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\$(Configuration)\;..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>xgTest.lib;visa32.lib;STSSP8201.lib;STSCore.lib;sts8100.lib;Shlwapi.lib;DCM.lib;UserRes.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RecordTime|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ATLibs)\xgTest\inc;$(ATLibs)\STSPciE\inc\STSSP8201;..\..\driverRef\TestEnvironment;..\..\inc;..\..\inc\DCM;$(ATLibs)\STSCore\inc;..\..\ext\VISA\Include;$(ATLibs)\STSCore\inc\STSCore;$(ATLibs)\ATInterface\Global;$(ATLibs)\STS8100\inc;$(ATLibs)\DriverPack8250\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ATLibs)\xgTest\lib\VS2013\$(PlatformShortName)\Release\;$(ATLibs)\DriverPack8250\lib\VS2013\$(PlatformShortName)\Release\;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\Release\;..\..\ext\VISA\lib\msc;$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\Release\;$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\Release\;..\..\lib\VS2013\$(PlatformShortName)\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>xgTest.lib;visa32.lib;STSSP8201.lib;STSCore.lib;sts8100.lib;Shlwapi.lib;DCM.lib;UserRes.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define BIND_READ_BEGIN(pOperation, byCurrentSlot) set<BYTE> setSlot;set<BYTE> setController;BYTE byTargetSlot = CBindInfo::Instance()->GetBindInfo(setSlot, setController);assert(byTargetSlot == byCurrentSlot);CBindInfo::Instance()->ClearBind();for (auto Slot : setSlot){ COperation Operation(Slot); pOperation = &Operation; for (auto Controller : setController){ Operation.SetControllerIndex(Controller);
+#define BIND_READ_END } }CBindInfo::Instance()->Bind(setSlot, setController, byTargetSlot);
+

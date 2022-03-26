@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\DCM400\DCM400.h" />
+    <ClInclude Include="..\..\inc\DCM400\DCM400HardwareInfo.h" />
+    <ClInclude Include="..\..\inc\DCM400\ErrorCode.h" />
+    <ClInclude Include="..\..\inc\DCM400\SM8250.h" />
+    <ClInclude Include="..\..\src\DCM400\AD7606.h" />
+    <ClInclude Include="..\..\src\DCM400\AlarmID.h" />
+    <ClInclude Include="..\..\src\DCM400\ATE318.h" />
+    <ClInclude Include="..\..\src\DCM400\BaseAuthorization.h" />
+    <ClInclude Include="..\..\src\DCM400\BaseOperation.h" />
+    <ClInclude Include="..\..\src\DCM400\Bind.h" />
+    <ClInclude Include="..\..\src\DCM400\Board.h" />
+    <ClInclude Include="..\..\src\DCM400\BRAM.h" />
+    <ClInclude Include="..\..\src\DCM400\ChannelClassify.h" />
+    <ClInclude Include="..\..\src\DCM400\CMDCode.h" />
+    <ClInclude Include="..\..\src\DCM400\ConfigFile.h" />
+    <ClInclude Include="..\..\src\DCM400\Controller.h" />
+    <ClInclude Include="..\..\src\DCM400\DRAM.h" />
+    <ClInclude Include="..\..\src\DCM400\DriverAlarm.h" />
+    <ClInclude Include="..\..\src\DCM400\FlashInfo.h" />
+    <ClInclude Include="..\..\src\DCM400\Format.h" />
+    <ClInclude Include="..\..\src\DCM400\framework.h" />
+    <ClInclude Include="..\..\src\DCM400\HardwareFunction.h" />
+    <ClInclude Include="..\..\src\DCM400\HDModule.h" />
+    <ClInclude Include="..\..\src\DCM400\I2C\I2C.h" />
+    <ClInclude Include="..\..\src\DCM400\I2C\I2CRAM.h" />
+    <ClInclude Include="..\..\src\DCM400\MD5.h" />
+    <ClInclude Include="..\..\src\DCM400\Operation.h" />
+    <ClInclude Include="..\..\src\DCM400\Pattern.h" />
+    <ClInclude Include="..\..\src\DCM400\PatternCMD.h" />
+    <ClInclude Include="..\..\src\DCM400\pch.h" />
+    <ClInclude Include="..\..\src\DCM400\Period.h" />
+    <ClInclude Include="..\..\src\DCM400\Pin.h" />
+    <ClInclude Include="..\..\src\DCM400\PinGroup.h" />
+    <ClInclude Include="..\..\src\DCM400\PMU.h" />
+    <ClInclude Include="..\..\src\DCM400\Register.h" />
+    <ClInclude Include="..\..\src\DCM400\Relay.h" />
+    <ClInclude Include="..\..\src\DCM400\resource.h" />
+    <ClInclude Include="..\..\src\DCM400\SelfCheck.h" />
+    <ClInclude Include="..\..\src\DCM400\ShieldAlaram.h" />
+    <ClInclude Include="..\..\src\DCM400\Site.h" />
+    <ClInclude Include="..\..\src\DCM400\Timer.h" />
+    <ClInclude Include="..\..\src\DCM400\Timeset.h" />
+    <ClInclude Include="..\..\src\DCM400\TMU.h" />
+    <ClInclude Include="..\..\src\DCM400\MainFunction.h" />
+    <ClInclude Include="..\..\src\DCM400\VectorInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DCM400\AD7606.cpp" />
+    <ClCompile Include="..\..\src\DCM400\ATE318.cpp" />
+    <ClCompile Include="..\..\src\DCM400\BaseOperation.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Bind.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Board.cpp" />
+    <ClCompile Include="..\..\src\DCM400\BRAM.cpp" />
+    <ClCompile Include="..\..\src\DCM400\ChannelClassify.cpp" />
+    <ClCompile Include="..\..\src\DCM400\CMDCode.cpp" />
+    <ClCompile Include="..\..\src\DCM400\ConfigFile.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Controller.cpp" />
+    <ClCompile Include="..\..\src\DCM400\DCM400.cpp" />
+    <ClCompile Include="..\..\src\DCM400\DRAM.cpp" />
+    <ClCompile Include="..\..\src\DCM400\DriverAlarm.cpp" />
+    <ClCompile Include="..\..\src\DCM400\HardwareFunction.cpp" />
+    <ClCompile Include="..\..\src\DCM400\HDModule.cpp" />
+    <ClCompile Include="..\..\src\DCM400\I2C\I2C.cpp" />
+    <ClCompile Include="..\..\src\DCM400\I2C\I2CRAM.cpp" />
+    <ClCompile Include="..\..\src\DCM400\MD5.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Operation.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Pattern.cpp" />
+    <ClCompile Include="..\..\src\DCM400\PatternCMD.cpp" />
+    <ClCompile Include="..\..\src\DCM400\pch.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Period.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Pin.cpp" />
+    <ClCompile Include="..\..\src\DCM400\PinGroup.cpp" />
+    <ClCompile Include="..\..\src\DCM400\PMU.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Register.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Relay.cpp" />
+    <ClCompile Include="..\..\src\DCM400\SelfCheck.cpp" />
+    <ClCompile Include="..\..\src\DCM400\ShieldAlaram.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Site.cpp" />
+    <ClCompile Include="..\..\src\DCM400\SM8250.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Timer.cpp" />
+    <ClCompile Include="..\..\src\DCM400\Timeset.cpp" />
+    <ClCompile Include="..\..\src\DCM400\TMU.cpp" />
+    <ClCompile Include="..\..\src\DCM400\MainFunction.cpp" />
+    <ClCompile Include="..\..\src\DCM400\VectorInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\DCM400\cpp.hint" />
+    <None Include="SM8250.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\DCM400\DCM400.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{dc372715-7fc4-45cb-87d1-70d7c8b01c4c}</ProjectGuid>
+    <RootNamespace>DCM400</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>C:\AccoTEST\AccoTestSystemVersion2100build200814_r_p3.1_DCM400\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\VS2013\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\temp\VS2013\$(PlatformShortName)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DCM400_EXPORTS;_WINDOWS;_USRDLL;_AT_CPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\src;..\..\inc\DCM400;$(ATLibs)\STSCore\inc\STSCore;$(ATLibs)\STS8100\inc;$(ATLibs)\ATInterface\ATGlobal;$(ATLibs)\ATInterface\Global;$(ATLibs)\ATInterface\Hardware;$(ATLibs)\STSPciE\inc\STSSP8201;$(ATLibs)\ATInterface\DriverPack;$(ATLibs)\STSCore\inc;$(ATLibs)\DriverPack8250\inter;$(ATLibs)\DriverPack8250\inc;$(AccoSDK);$(ATLibs)\ATInterface\CalDriver;$(ATLibs);$(ATLibs)\aco_res_cfg\inc;$(ATLibs)\AT_CBB\inc;..\..\ext\ACVectorEditor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>sts8100.lib;StsCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\DriverPack8250\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(AccoSDK)\zx\lib-x32;$(ATLibs)\aco_res_cfg\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\AT_CBB\lib\VS2013\$(PlatformShortName)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>SM8250.def</ModuleDefinitionFile>
+      <ImportLibrary>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;DCM400_EXPORTS;_WINDOWS;_USRDLL;_AT_CPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\src;..\..\inc\DCM400;$(ATLibs)\STSCore\inc\STSCore;$(ATLibs)\STS8100\inc;$(ATLibs)\ATInterface\ATGlobal;$(ATLibs)\ATInterface\Global;$(ATLibs)\ATInterface\Hardware;$(ATLibs)\STSPciE\inc\STSSP8201;$(ATLibs)\ATInterface\DriverPack;$(ATLibs)\STSCore\inc;$(ATLibs)\DriverPack8250\inter;$(ATLibs)\DriverPack8250\inc;$(AccoSDK);$(ATLibs)\ATInterface\CalDriver;$(ATLibs);$(ATLibs)\aco_res_cfg\inc;$(ATLibs)\AT_CBB\inc;..\..\ext\ACVectorEditor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>sts8100.lib;StsCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ATLibs)\STS8100\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STSPciE\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\STSCore\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\DriverPack8250\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(AccoSDK)\zx\lib-x32;$(ATLibs)\aco_res_cfg\lib\VS2013\$(PlatformShortName)\$(Configuration)\;$(ATLibs)\AT_CBB\lib\VS2013\$(PlatformShortName)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>SM8250.def</ModuleDefinitionFile>
+      <ImportLibrary>..\..\lib\VS2013\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;DCM400_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>SM8250.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;DCM400_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>SM8250.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

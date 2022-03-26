@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Diagnosis">
+      <UniqueIdentifier>{ab84c4e0-9b96-43bf-a970-35f1f7efe3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Diagnosis">
+      <UniqueIdentifier>{27e3a476-c0c3-4a67-8ef2-8a9eb66bc893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DebugTool">
+      <UniqueIdentifier>{f2395b47-2580-4cea-8983-5685dc5b106c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DebugTool">
+      <UniqueIdentifier>{6a65d086-9415-4721-9149-0a0028c186ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\I2C">
+      <UniqueIdentifier>{07217e00-0277-4888-8702-c88de51b30ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I2C">
+      <UniqueIdentifier>{1be2d899-8cac-4fac-a70c-0759851e4b66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DCM\ATE305.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\BaseOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\BRAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\COM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DCM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DRAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DriverAlarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\FPGAA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\FPGAE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\HardwareFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Operation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Pin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Site.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\SM8213.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Timeset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\VectorInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\PinGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\MD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\HardInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\FlashHead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\CalibrationInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\AD7606.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ChannelData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Relay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ACVFailMapHeaderInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\HDModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugTool.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItem.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemOut.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuForce.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuInterval.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuIRange.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuMeas.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuMode.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuSamples.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIH.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIL.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOH.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOL.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\Diagnosis.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisDriverReceiver.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeScan.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeSplit.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisHighInstructions.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisItem.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisLow.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisRateSplit.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisWaveformat.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\MutualTest.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisHighMemory.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\BoardDelay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisConnectivity.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2C.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CBoard.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CBase.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CLine.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CRAM.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CSite.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CSiteData.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ChannelClassify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Bind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\TMU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\SelfCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisTMU.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Period.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMode.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffTime.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffNum.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTriggerEdge.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUSampleNum.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTimeout.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMeas.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUUnit.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemMCUMeas.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisConditionalInstrcution.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ShieldAlaram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisPMU.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\PMU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ChannelMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\CheckLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CBoardManage.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CLineInfo.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\RunAuthorization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ClassDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPinMode.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ConfigFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\I2C\I2CManage.cpp">
+      <Filter>Source Files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemPinMode.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisComparisonShield.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisFailSelected.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisHardwareCapture.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\ConfigFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\Diagnosis\DiagnosisFailSyn.cpp">
+      <Filter>Source Files\Diagnosis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DCM\DebugTool\HDDebugToolItemSlot.cpp">
+      <Filter>Source Files\DebugTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\DCM\ATE305.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\BaseOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\BRAM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\COM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DCM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DRAM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DriverAlarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\FPGAA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\FPGAE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\HardwareFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Operation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Pin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Site.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Timeset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\VectorInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\DCM\HardwareInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\DCM\SM8213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\PinGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\MD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\HardInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\BaseDataOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\FlashHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\CalibrationInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\AD7606.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ChannelData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Relay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ACVFailMapHeaderInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\HDModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugTool.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItem.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemOut.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuForce.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuInterval.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuIRange.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuMeas.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuMode.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPmuSamples.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIH.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVIL.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOH.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemVOL.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\Diagnosis.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisDriverReceiver.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeScan.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisEdgeSplit.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisHighInstructions.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisItem.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisLow.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisRateSplit.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisWaveformat.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\MutualTest.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisHighMemory.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\BoardDelay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\FlashInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisConnectivity.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2C.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CBase.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CBoard.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CLine.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CRAM.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CSite.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CSiteData.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ChannelClassify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Bind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Calibration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\AlarmID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\TMU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\SelfCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisTMU.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Period.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMode.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffTime.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUHoldOffNum.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTriggerEdge.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUSampleNum.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUTimeout.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUMeas.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemTMUUnit.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemMCUMeas.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisConditionalInstrcution.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ShieldAlaram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisPMU.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\PMU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ChannelMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\CheckLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CBoardManage.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CLineInfo.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPinMode.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisComparisonShield.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisFailSelected.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisHardwareCapture.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ConfigFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\Diagnosis\DiagnosisFailSyn.h">
+      <Filter>Header Files\Diagnosis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\RunAuthorization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemPinMode.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\DebugTool\HDDebugToolItemSlot.h">
+      <Filter>Header Files\DebugTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ClassDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\ConfigFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DCM\I2C\I2CManage.h">
+      <Filter>Header Files\I2C</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\DCM\DCM.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\inc\DCM\SM8213.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\src\DCM\cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\src\DCM\accotest.xml" />
+  </ItemGroup>
+</Project>
